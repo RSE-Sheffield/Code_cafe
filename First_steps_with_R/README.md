@@ -40,9 +40,22 @@ To see the full list of available data sets, execute the command
 
     library(help="datasets")
 
+## Scripts
+
+In the simplest terms, a script is just a list of R commands that can be run in order with a single command.
+
+EXAMPLE
+
+An alternative way to think of a script is as a **permanent, repeatable, annotated, shareable, cross-platform archive**<sup>1</sup> of your analysis! Everything required to repeat your analysis is available in a single place.
+
+## Further reading and next steps
+
+## References
+
+[1] Getting Started with R - An Introduction for Biologists. Authors: Beckerman and Petchey.
+
 ## Syllabus outline
 
-- Installing Rstudio (DONE )
 - Starting Rstudio
 - The current working directory. Projects.
 - Installing packages
@@ -52,4 +65,3 @@ To see the full list of available data sets, execute the command
 - Downloading data
 - Plotting data again
 - Scripts
-- Further reading / next steps
