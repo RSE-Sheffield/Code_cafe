@@ -17,6 +17,8 @@ Our first task, therefore, is to install R and RStudio.
 * Install R first. Downloads are available at https://cran.rstudio.com/
 * Install RStudio second. Downloads are available at https://www.rstudio.com/products/rstudio/download/
 
+## Starting RStudio
+
 ## Simple commands and calculations
 
 R is a command based system. Many commands are built in
@@ -40,6 +42,16 @@ To see the full list of available data sets, execute the command
 
     library(help="datasets")
 
+## Summarising data with summary()
+
+## Plotting data
+
+## Importing your own data
+
+## The current working directory. Projects.
+
+## Downloading data directly from the internet
+
 ## Scripts
 
 In the simplest terms, a script is just a list of R commands that can be run in order with a single command.
@@ -53,15 +65,3 @@ An alternative way to think of a script is as a **permanent, repeatable, annotat
 ## References
 
 [1] Getting Started with R - An Introduction for Biologists. Authors: Beckerman and Petchey.
-
-## Syllabus outline
-
-- Starting Rstudio
-- The current working directory. Projects.
-- Installing packages
-- Summarising data with summary()
-- Plotting data
-- Finding packages
-- Downloading data
-- Plotting data again
-- Scripts
