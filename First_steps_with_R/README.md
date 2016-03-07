@@ -4,8 +4,10 @@
 
 ## What is R?
 
-* What is it?
-* Why use it?
+R is a free, open-source programming language that has very strong support for statistics.
+It is used extensively in research and industry for areas such as data analysis, statistics, machine learning, bioinformatics, simulation, linguistics and much more.
+
+With over [8000 freely available add-on packages](https://cran.r-project.org/web/packages/) that provide extensive additional functionality, R will probably have something that can help your research.
 
 ## Installing R and RStudio
 
@@ -99,6 +101,11 @@ EXAMPLE
 An alternative way to think of a script is as a **permanent, repeatable, annotated, shareable, cross-platform archive**<sup>1</sup> of your analysis! Everything required to repeat your analysis is available in a single place. The only extra required ingredient is a computer.
 
 ## Summary of what you have learned in this session
+
+In this session you have
+
+* Installed R and RStudio on your own machine
+*
 
 ## Further reading and next steps
 
