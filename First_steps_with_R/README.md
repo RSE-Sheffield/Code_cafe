@@ -60,6 +60,10 @@ The `names()` function tells us the column names of a data frame.
 
     names(iris)
 
+We can extract any of the columns by name using the `$` operator. To get a list of the petal lengths for example we do
+
+    iris$Petal.Length  
+
 The `str()` function gives a compact summary of the structure of a data frame.
 
     str(iris)
@@ -72,7 +76,9 @@ You could display the entire data frame by simply entering
 
     iris
 
-## Summarising data with summary()
+Alternatively, we can obtain some summary statistics about this dataset using the `summary()` command
+
+    summary(iris)
 
 ## Plotting data
 
