@@ -39,7 +39,7 @@ R can also do all of the mathematical operations that you'd expect to see on a s
 
 This is the first time we've entered a **function** in R so let's discuss some details. In the above, the **function name** is `sqrt` and the **function argument** is 2. In R, all function arguments are enclosed in parentheses `()`
 
-R is case sensitive. For example, the correct command for square root is `sqrt(2)` with everything in lower case. Variations such as `Sqrt(2)` or `SQRT(2)` won't work (**try it!).
+R is case sensitive. For example, the correct command for square root is `sqrt(2)` with everything in lower case. Variations such as `Sqrt(2)` or `SQRT(2)` won't work (**try it!**).
 
 R can also evaluate all the standard trigonometric functions such as `sin`, `cos` and `tan`. These take their arguments in radians rather than degrees. As such, a right angle is  `pi/2` rather than 90.
 
@@ -93,7 +93,7 @@ We can extract any of the columns by name using the `$` operator. To get a list 
 
     iris$Petal.Length  
 
-The `str()` function gives a compact summary of the structure of a data frame.
+The `str()` function gives a compact summary of the structure of its input
 
     str(iris)
 
@@ -105,11 +105,40 @@ You could display the entire data frame by simply entering
 
     iris
 
-Alternatively, we can obtain some summary statistics about this dataset using the `summary()` command
+Alternatively, we can obtain some summary statistics about this data frame using the `summary()` command
 
     summary(iris)
 
 ## Plotting data
+
+Let's extract the columns Petal.Length and Petal.Width and plot them against each other
+
+    x = iris$Petal.Length
+    y = iris$Petal.Width
+    plot(x,y)
+
+We add axis labels and titles by supplying named arguments to the plot command
+
+    plot(x,y,xlab="Petal Length",ylab="Petal Width",main="Iris Data")
+
+Each datapoint has an iris species associated with it - one of setosa, versicolor and virginica. We can see this by asking R what the structure of the `iris$Species` column is
+
+    str(iris$Species)
+
+Factors are how R represent [categorical variables](https://en.wikipedia.org/wiki/Categorical_variable). We can see what the factor levels are with
+
+    levels(iris$Species)
+
+We can include this information on the plot by coloring each datapoint according to its species.
+
+    plot(x,y,xlab="Petal Length",ylab="Petal Width",main="Iris Data",col=iris$Species)
+
+ Finally, let's add a legend
+
+    plot(x,y,xlab="Petal Length",ylab="Petal Width",main="Iris Data",col=iris$Species)
+    legend(x = 1, y = 2.5, legend = levels(iris$Species), col = c(1:3), pch=1)
+
+**TODO: ggplot2**
 
 ## Importing your own data
 
