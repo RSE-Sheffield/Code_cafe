@@ -9,6 +9,10 @@ It is used extensively in research and industry for areas such as data analysis,
 
 With over [8000 freely available add-on packages](https://cran.r-project.org/web/packages/) that provide extensive additional functionality, R will probably have something that can help your research.
 
+Don't just take our word for it though -- here's what others have to say
+
+* [Why use R? Five reasons.](http://www.econometricsbysimulation.com/2014/03/why-use-r-five-reasons.html) - From the 'Econometrics By Simulation' blog
+
 ## Installing R and RStudio
 
 Most users of R use it from within another free piece of software called RStudio.
