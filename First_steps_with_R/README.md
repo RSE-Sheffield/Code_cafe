@@ -27,14 +27,37 @@ Our first task, therefore, is to install R and RStudio.
 
 ## Simple commands and calculations
 
-R is a command based system. Many commands are built in
+R is a command based system which means that you (usually) interact with it by entering commands rather than using a Graphical User Interface (GUI). Some of these commands are rather straightforward! For example, R can be used to do arithmetic
 
-* Brackets for function arguments
-* case sensitive
+    1+1
+    3*9
+    377/120
 
-* 1+1
-* sqrt(2)
-* getwd()
+R can also do all of the mathematical operations that you'd expect to see on a scientific calculator. For example, to take the square root of two:
+
+    sqrt(2)
+
+This is the first time we've entered a **function** in R so let's discuss some details. In the above, the **function name** is `sqrt` and the **function argument** is 2. In R, all function arguments are enclosed in parentheses `()`
+
+R is case sensitive. For example, the correct command for square root is `sqrt(2)` with everything in lower case. Variations such as `Sqrt(2)` or `SQRT(2)` won't work (**try it!).
+
+R can also evaluate all the standard trigonometric functions such as `sin`, `cos` and `tan`. These take their arguments in radians rather than degrees. As such, a right angle is  `pi/2` rather than 90.
+
+    sin(pi/2)
+
+Unlike many scientific calculators, R's `log` function takes the natural logarithm by default.
+
+    log(10)
+
+If you want to calculate a logarithm to base 10, you'll need to specify the base as a second argument.
+
+    log(100,base=10)
+
+This shows another feature of R functions -- **named arguments**. In this case, the named argument is **base**. Since the second argument to `log` is, by design, always the base you could have simply executed
+
+    log(100,10)
+
+but the named argument version is more readable.
 
 ## Variables
 
