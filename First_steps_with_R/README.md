@@ -138,7 +138,7 @@ We can include this information on the plot by coloring each datapoint according
     plot(x,y,xlab="Petal Length",ylab="Petal Width",main="Iris Data",col=iris$Species)
     legend(x = 1, y = 2.5, legend = levels(iris$Species), col = c(1:3), pch=1)
 
-**Exercise**: try summarising and plotting a different dataset using the commands you've learned.  The name of the dataset to investigate is `ToothGrowth`.  Again, you can use `help(Toothgrowth)` to see contextual information and metadata.  
+**Exercise**: try summarising and plotting a different dataset using the commands you've learned.  The name of the dataset to investigate is `ToothGrowth`.  Again, you can use `help(ToothGrowth)` to see contextual information and metadata.  
 
 **TODO: ggplot2**
 
