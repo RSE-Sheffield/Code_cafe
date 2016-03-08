@@ -165,6 +165,8 @@ In this session you have
 
 ## Further reading and next steps
 
+* [Learn R and data science right in the R console with swirl](http://swirlstats.com/)
+
 ## References
 
 [1] Getting Started with R - An Introduction for Biologists. Authors: Beckerman and Petchey.
