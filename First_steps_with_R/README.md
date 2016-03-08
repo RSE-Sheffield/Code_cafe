@@ -162,7 +162,7 @@ Import the .csv file using the **read.csv()** function
 
 The variable `example_data` will be an R data frame -- exactly the same type of object as the iris data we looked at earlier.
 
-**Exercise**
+**Exercise - example_data**
 
 * Show the first few lines of example_data
 * Create a plot of the example_data
