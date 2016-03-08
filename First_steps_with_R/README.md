@@ -140,19 +140,35 @@ We can include this information on the plot by coloring each datapoint according
 
 **TODO: ggplot2**
 
+## The current working directory.
+
 ## Importing your own data
 
-* read.csv
+In this section, you'll learn how to import data into R from the common .csv (comma separated values) format.
 
-## The current working directory. Projects.
+Download the file [example_data.csv](https://raw.githubusercontent.com/mikecroucher/Code_cafe/master/First_steps_with_R/example_data.csv) to your current working directory. You can either do this manually, using your web browser, or you can use the R command **download.file**
 
-## Downloading data directly from the internet
+    download.file('https://raw.githubusercontent.com/mikecroucher/Code_cafe/master/First_steps_with_R/example_data.csv',destfile="example_data.csv")
+
+Ensure that the file is in your current working directory using the **dir()** function
+
+    dir()
+
+Import the .csv file using the **read.csv()** function
+
+    example_data <- read.csv('example_data.csv')
+
+The variable `example_data` will be an R data frame -- exactly the same type of object as the iris data we looked at earlier.
+
+**Exercise**
+
+* Show the first few lines of example_data
+* Create a plot of the example_data
+* Show summary statistics of example_data
 
 ## Scripts
 
 In the simplest terms, a script is just a list of R commands that can be run in order with a single command.
-
-EXAMPLE
 
 An alternative way to think of a script is as a **permanent, repeatable, annotated, shareable, cross-platform archive**<sup>1</sup> of your analysis! Everything required to repeat your analysis is available in a single place. The only extra required ingredient is a computer.
 
