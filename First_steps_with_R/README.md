@@ -15,7 +15,7 @@ Don't just take our word for it though -- here's what others have to say
 
 ## Installing R and RStudio
 
-Most users of R use it from within another free piece of software called RStudio.
+Many users of R use it from within another free piece of software called RStudio.
 RStudio is a powerful and productive user interface for R. It’s free and open source, and works great on Windows, Mac, and Linux.
 
 Our first task, therefore, is to install R and RStudio.
@@ -74,11 +74,11 @@ but the named argument version is more readable.
 
 ## Variables
 
+
+
 * Assignment
 * ls()
 * rm(list=ls())
-
-## Packages
 
 ## Built in datasets
 
@@ -153,7 +153,25 @@ We can include this information on the plot by coloring each datapoint according
 
 **Exercise - Tooth growth**: try summarising and plotting a different dataset using the commands you've learned.  The name of the dataset to investigate is `ToothGrowth`.  Again, you can use `help(ToothGrowth)` to see contextual information and metadata.  
 
-**TODO: ggplot2**
+## Packages
+
+R has many functions built in but there are over [8000 freely available add-on packages](https://cran.r-project.org/web/packages/) that provide thousands more functions. Once you know the name of a package, you call install it very easily.
+
+For example, a package called [ggplot2](http://ggplot2.org/) is widely used to create high quality graphics.  To install ggplot2:
+
+    install.packages("ggplot2")
+
+We make all of the `ggplot2` functions available to our R session with the `library` command
+
+    library(ggplot2)
+
+Among other things, this makes the [qplot](http://docs.ggplot2.org/0.9.3/qplot.html) function available to us. We can use this as an alternative to the basic `plot` command described above
+
+    qplot(iris$Petal.Length, iris$Petal.Width,col=iris$Species)
+
+To get help about the functionality in the ggplot2 package:
+
+    help(package=ggplot2)
 
 ## The current working directory.
 
