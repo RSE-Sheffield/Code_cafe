@@ -32,11 +32,11 @@ When you start RStudio, you'll be greeted with a window like the one below
 
 ![R Studio Screen Shot](./rstudio.png)
 
-R can be used interactively by typing commands into the **Console** panel. In this tutorial, we expect you to type everything into the console that has a format like the one below
+R can be used interactively by typing commands into the **Console** panel. In this tutorial, everything that is formatted like this:
 
     print("this is an R command")
 
-Press return after each command.
+Should be typed into the terminal. Press Return after every command.
 
 ## Simple commands and calculations
 
