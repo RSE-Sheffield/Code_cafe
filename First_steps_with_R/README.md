@@ -1,6 +1,6 @@
 # First Steps With R
 
-## Status: DRAFT
+This is designed to be a self-directed study session where you work through the material at your own pace. If you are at a Code Cafe event, instructors will be on hand to help you.
 
 ## What is R?
 
