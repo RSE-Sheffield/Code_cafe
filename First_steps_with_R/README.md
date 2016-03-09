@@ -177,7 +177,9 @@ We can include this information on the plot by coloring each datapoint according
     plot(x,y,xlab="Petal Length",ylab="Petal Width",main="Iris Data",col=iris$Species)
     legend(x = 1, y = 2.5, legend = levels(iris$Species), col = c(1:3), pch=1)
 
-**Exercise - Tooth growth**: try summarising and plotting a different dataset using the commands you've learned.  The name of the dataset to investigate is `ToothGrowth`.  Again, you can use `help(ToothGrowth)` to see contextual information and metadata.  
+**Exercise - Tooth growth**:
+
+Try summarising and plotting a different dataset using the commands you've learned.  The name of the dataset to investigate is `ToothGrowth`.  Again, you can use `help(ToothGrowth)` to see contextual information and metadata.  
 
 ## Packages
 
@@ -194,6 +196,10 @@ We make all of the `ggplot2` functions available to our R session with the `libr
 Among other things, this makes the [qplot](http://docs.ggplot2.org/0.9.3/qplot.html) function available to us. We can use this as an alternative to the basic `plot` command described above
 
     qplot(iris$Petal.Length, iris$Petal.Width,col=iris$Species)
+
+Alternatively, we can save ourselves typing `iris$` a lot by telling `qplot` that the data we are referring to is the iris data
+
+    qplot(data=iris,Petal.Length, Petal.Width,col=Species)
 
 To get help about the functionality in the ggplot2 package:
 
