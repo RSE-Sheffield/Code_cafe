@@ -224,7 +224,7 @@ It does this using the concept of **current working directory**. To see what the
 
     getwd()
 
-You can create a new directory using `create.dir()`
+You can create a new directory using `dir.create()`
 
     dir.create('mydata')
 
