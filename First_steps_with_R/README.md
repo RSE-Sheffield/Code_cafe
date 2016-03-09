@@ -197,7 +197,10 @@ To get help about the functionality in the ggplot2 package:
 
 A very popular R package is [MASS](https://cran.r-project.org/web/packages/MASS/index.html) which was created to support the book [Modern Applied Statistics with S](http://www.springer.com/gb/book/9780387954578). This contains many more classic data sets which can be used to develop your R skills.
 
-Using what you've learned in this section, install the MASS package on your machine and explore its documentation.
+1. install the MASS package on your machine.
+2. Explore the MASS package's documentation and find a dataset that interests you.
+3. Load the MASS library into your R session.
+4. Take a look at the dataset you chose in part (2) using what you've learned so far.
 
 ## The current working directory.
 
