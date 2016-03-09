@@ -4,7 +4,7 @@
 
 ## What is R?
 
-R is a free, open-source programming language that has very strong support for statistics.
+R is a free, open-source programming language that has very strong support for statistics. It was originally developed as an open source implementation of the [S Programming language](https://en.wikipedia.org/wiki/S_(programming_language)).
 It is used extensively in research and industry for areas such as data analysis, statistics, machine learning, bioinformatics, simulation, linguistics and much more.
 
 With over [8000 freely available add-on packages](https://cran.r-project.org/web/packages/) that provide extensive additional functionality, R will probably have something that can help your research.
@@ -98,7 +98,7 @@ To remove a variable from R's memory, we use the **rm()** command
 
 The `rm` command can also remove a list of variables in one go. For example, we could remove **all** variables in R's memory by sending the results of **ls()** to it.
 
-* rm(list=ls())
+    rm(list=ls())
 
 ## Built in datasets
 
@@ -192,6 +192,12 @@ Among other things, this makes the [qplot](http://docs.ggplot2.org/0.9.3/qplot.h
 To get help about the functionality in the ggplot2 package:
 
     help(package=ggplot2)
+
+**Exercise (Packages)**
+
+A very popular R package is [MASS](https://cran.r-project.org/web/packages/MASS/index.html) which was created to support the book [Modern Applied Statistics with S](http://www.springer.com/gb/book/9780387954578). This contains many more classic data sets which can be used to develop your R skills.
+
+Using what you've learned in this section, install the MASS package on your machine and explore its documentation.
 
 ## The current working directory.
 
