@@ -72,6 +72,12 @@ This shows another feature of R functions -- **named arguments**. In this case, 
 
 but the named argument version is more readable.
 
+## Getting help
+
+Built in to R is a large amount of documentation that you can call on any time. For example, if you forget the details about the `log` function described above, ask R for help
+
+     help(log)
+
 ## Variables
 
 We'll rarely want to perform a calculation and throw away the result. It is much more likely that we'll want to store the result in R's memory for later use; either as part of future calculations or ready for export to external files.
