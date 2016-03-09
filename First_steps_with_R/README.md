@@ -262,9 +262,16 @@ The variable `example_data` will be an R data frame -- exactly the same type of 
 
 ## Scripts
 
-In the simplest terms, a script is just a list of R commands that can be run in order with a single command.
+In the simplest terms, a script is just a text file containing a list of R commands. We can run this list in order with a single command called `source()`
 
 An alternative way to think of a script is as a **permanent, repeatable, annotated, shareable, cross-platform archive**<sup>1</sup> of your analysis! Everything required to repeat your analysis is available in a single place. The only extra required ingredient is a computer.
+
+For example, based on the article at [http://www.walkingrandomly.com/?p=5254](http://www.walkingrandomly.com/?p=5254), we have created a script called `best_fit.R` that finds the parameters `p1` and `p2` such that the curve `p1*cos(p2*xdata) + p2*sin(p1*xdata)` is a best fit for the `example_data` described earlier. The details of this are beyond the scope of this course but you can easily download and run this analysis yourself.
+
+    download.file('https://raw.githubusercontent.com/mikecroucher/Code_cafe/master/First_steps_with_R/best_fit.R',destfile='best_fit.R')
+    source('best_fit.R')
+
+By doing this, you have reproduced the analysis that we did. You are able to check and extend our results or apply the code to your own work. Making code and data publicly  available like this is the foundation of [Open Data Science](http://opendsi.cc/)
 
 ## Summary of what you have learned in this session
 
