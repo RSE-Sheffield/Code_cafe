@@ -2,6 +2,8 @@
 
 This is designed to be a self-directed study session where you work through the material at your own pace. If you are at a Code Cafe event, instructors will be on hand to help you.
 
+We have an interactive discussion notebook at [https://v.etherpad.org/p/code_cafe](https://v.etherpad.org/p/code_cafe) where you can ask questions and make comments.
+
 ## What is R?
 
 R is a free, open-source programming language that has very strong support for statistics. It was originally developed as an open source implementation of the [S Programming language](https://en.wikipedia.org/wiki/S_(programming_language)).
@@ -11,7 +13,7 @@ With over [8000 freely available add-on packages](https://cran.r-project.org/web
 
 Don't just take our word for it though -- here's what others have to say
 
-* [Why use R? Five reasons.](http://www.econometricsbysimulation.com/2014/03/why-use-r-five-reasons.html) - From the 'Econometrics By Simulation' blog
+* [Why use R? Five reasons](http://www.econometricsbysimulation.com/2014/03/why-use-r-five-reasons.html) - From the 'Econometrics By Simulation' blog
 
 ## Installing R and RStudio
 
