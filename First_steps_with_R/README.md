@@ -74,10 +74,30 @@ but the named argument version is more readable.
 
 ## Variables
 
+We'll rarely want to perform a calculation and throw away the result. It is much more likely that we'll want to store the result in R's memory for later use; either as part of future calculations or ready for export to external files.
 
+We do this by assigning the results of calculations to variables.  For example,
 
-* Assignment
-* ls()
+    a <- sin(1)
+    b <- 10
+    c <- a+b
+
+In the above, we created three variables called *a*, *b* and *c*.
+Note that as you create variables, they are shown, along with their values, in RStudio's **Environment** window.
+You can also list all **variable names** that currently exist in R's memory using the command
+
+    ls()
+
+To see the value of any given variable, just type it's name followed by enter
+
+    c
+
+To remove a variable from R's memory, we use the **rm()** command
+
+    rm(c)
+
+The `rm` command can also remove a list of variables in one go. For example, we could remove **all** variables in R's memory by sending the results of **ls()** to it.
+
 * rm(list=ls())
 
 ## Built in datasets
