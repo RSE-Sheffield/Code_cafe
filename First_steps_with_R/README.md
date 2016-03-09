@@ -197,12 +197,32 @@ To get help about the functionality in the ggplot2 package:
 
 A very popular R package is [MASS](https://cran.r-project.org/web/packages/MASS/index.html) which was created to support the book [Modern Applied Statistics with S](http://www.springer.com/gb/book/9780387954578). This contains many more classic data sets which can be used to develop your R skills.
 
-1. install the MASS package on your machine.
+1. Install the MASS package on your machine.
 2. Explore the MASS package's documentation and find a dataset that interests you.
 3. Load the MASS library into your R session.
 4. Take a look at the dataset you chose in part (2) using what you've learned so far.
 
-## The current working directory.
+## The current working directory
+
+Working with built-in datasets is great for practice but for real-life work its vital that you can import our own data.
+Before we do this, we must learn where R is expecting to find your files.
+It does this using the concept of **current working directory**. To see what the current working directory is, execute
+
+    getwd()
+
+You can create a new directory using `create.dir()`
+
+    dir.create('mydata')
+
+Move into this new directory using `setwd()`
+
+    setwd('mydata')
+
+See its contents with
+
+    dir()
+
+The current working directory is where R is currently looking for files and also where it will put any files it creates unless you tell it otherwise.
 
 ## Importing your own data
 
