@@ -273,17 +273,17 @@ For example, based on the article at [http://www.walkingrandomly.com/?p=5254](ht
 
 By doing this, you have reproduced the analysis that we did. You are able to check and extend our results or apply the code to your own work. Making code and data publicly  available like this is the foundation of [Open Data Science](http://opendsi.cc/)
 
-## Summary of what you have learned in this session
-
-In this session you have
-
-* Installed R and RStudio on your own machine
-*
-
 ## Further reading and next steps
 
+In this session, we told you how to import data from a file but not how to export it. The following link will teach you how to export to .csv.
+
+* [Tutorial: Exporting an R data frame to a .csv file](http://www.walkingrandomly.com/?p=5979)
+
+There are many online resources for learning R. Here are some we like
+
 * [Learn R and data science right in the R console with swirl](http://swirlstats.com/)
+* [Software Carpentry in R](http://swcarpentry.github.io/r-novice-inflammation/)
 
 ## References
 
-[1] Getting Started with R - An Introduction for Biologists. Authors: Beckerman and Petchey.
+[1] [Getting Started with R - An Introduction for Biologists](https://global.oup.com/academic/product/getting-started-with-r-9780199601622?cc=gb&lang=en&). Authors: Beckerman and Petchey.
