@@ -1,5 +1,7 @@
 # Syllabus
 
+**NOTE: OLD SYLLABUS; CAN USE AS A CHECKLIST FOR WRITING NEW ONE BUT WANTING A STRUCTURE THAT GETS TO APPLICATIONS USING NUMPY/PANDAS MUCH QUICKER.**
+
 0. **Introduction** to the course
     * Motivation
     * Outcomes and scope
@@ -91,6 +93,7 @@
         * on Iceberg
     * Finding and installing packages
 10. Additional exercises
+
 
 ## Integrate throughout
 
