@@ -5,6 +5,18 @@ Why not join us at the Code Cafe at Coffee Revolution? A group of research softw
 
 Drink coffee, learn some code, chat to other researchers, data scientists and programmers.
 
-First session is on Wednesday 9th March at 17.30 where the subject will be **First Steps with R**
+![](media/code_cafe_sticker_1.inkscape.svg.png "Code Cafe logo")
 
-Attendance is free but places are limited so please book via our Eventbrite page.
+
+
+
+## Forthcoming sessions
+
+None scheduled at present.  
+
+
+## Previous sessions
+
+* 2016-03-09: [First Steps with R](First_steps_with_R/README.md)
+
+
