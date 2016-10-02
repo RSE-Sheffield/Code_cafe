@@ -12,11 +12,8 @@ Drink coffee, learn some code, chat to other researchers, data scientists and pr
 
 ## Forthcoming sessions
 
-None scheduled at present.  
-
+* 2016-10-11: [Introduction to Mathematica](WolframCodeCafe/README.md)
 
 ## Previous sessions
 
 * 2016-03-09: [First Steps with R](First_steps_with_R/README.md)
-
-
