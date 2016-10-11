@@ -16,4 +16,14 @@ To download the code cafe material, go to https://github.com/mikecroucher/Code_c
 
 ![](./download.png)
 
+Download as a .zip file.
+
+![](./download_zip.png)
+
+The material is in the folder `WolframCodeCafe`.
+
 We suggest that you work through the material in the following order
+
+* 01Taster.nb
+* 02Taster.nb
+* Exercises.nb
