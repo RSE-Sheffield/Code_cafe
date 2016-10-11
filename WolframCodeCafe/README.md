@@ -14,6 +14,6 @@ Mathematica is commercial software.
 
 To download the code cafe material, go to https://github.com/mikecroucher/Code_cafe and click on the Download link.
 
-!()[./download.png]
+![](./download.png)
 
 We suggest that you work through the material in the following order
