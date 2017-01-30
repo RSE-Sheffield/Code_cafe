@@ -1,5 +1,7 @@
 This is a list of possible future sessions.
 
+- First steps with command line
+  - `bash` presumably, but maybe mention `zsh`?
 - First steps with [Jupyter](https://github.com/jupyter/notebook)
 - First steps in the shell
 - R tips for Python programmers
@@ -7,3 +9,4 @@ This is a list of possible future sessions.
 - Using git & github with RStudio
 - Keeping your data tidy
   - Based on [Hadley Wickham's Tidy Data paper](http://vita.had.co.nz/papers/tidy-data.pdf)
+- Containerised development with docker
