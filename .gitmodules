@@ -1,0 +1,3 @@
+[submodule "Python/seaborn-data"]
+	path = Python/seaborn-data
+	url = git@github.com:mwaskom/seaborn-data.git
