@@ -1,8 +1,6 @@
 # First Steps With R
 
-This is designed to be a self-directed study session where you work through the material at your own pace. If you are at a Code Cafe event, instructors will be on hand to help you.
-
-We have an interactive discussion notebook at [https://v.etherpad.org/p/code_cafe](https://v.etherpad.org/p/code_cafe) where you can ask questions and make comments.
+This is designed to be a self-directed study session where you work through the material at your own pace. If you are at a Cookies and Code event, instructors will be on hand to help you.
 
 ## What is R?
 
